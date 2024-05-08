@@ -2,13 +2,13 @@
   "name": "contextapiicq1",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "cy:run": "cypress run --reporter mochawesome",
-    "test": "start-server-and-test dev http://localhost:3000 cy:run"
-  },
+  
+    "scripts": {
+      "build": "next build",
+      "start": "next start"
+    },
+  
+  
   "dependencies": {
     "cypress": "^12.14.0",
     "mochawesome": "^7.1.3",
